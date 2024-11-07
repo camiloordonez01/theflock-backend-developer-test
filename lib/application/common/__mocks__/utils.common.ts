@@ -1,0 +1,2 @@
+export const generateMd5 = () => "79766914fa45dd7d033550d4a05b1957"
+export const generateToken = () => "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MzA5OTI3MTF9.3oaWfOi4ragEwnxF3jOu_aaAFBUe4n6e1uEa7oOXIpM"
