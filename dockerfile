@@ -1,9 +1,9 @@
-FROM node:17
+FROM node:20
 WORKDIR /app
 COPY package*.json ./
 
-RUN npm install
-RUN npm install db-migrate-mysql
+RUN npm install --legacy-peer-deps
+RUN npm install db-migrate-mysql --legacy-peer-deps
 COPY . .
 
 # This is our secret sauce
